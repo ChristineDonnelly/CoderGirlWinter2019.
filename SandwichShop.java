@@ -18,7 +18,7 @@ public class SandwichShop
 
         out.println("The sales goal for Veggie sandwiches is " + goalForVeggies);
 
-        out.print("How many veggie sandwiches were sold today?");
+        out.println("How many veggie sandwiches were sold today?");
         int veggieSold = keyboard.nextInt();
 
         if (veggieSold >= goalForVeggies){
@@ -29,7 +29,7 @@ public class SandwichShop
 
         out.println("The sales goal for burgers is " + goalForBurgers);
 
-        out.print("How many burgers were sold today?");
+        out.println("How many burgers were sold today?");
         int burgerSold = keyboard.nextInt();
 
         if (burgerSold >= goalForBurgers) {
@@ -40,7 +40,7 @@ public class SandwichShop
 
         out.println("The sales goal for subs is " + goalForSubs);
 
-        out.print("How many subs were sold today?");
+        out.println("How many subs were sold today?");
         int subSold = keyboard.nextInt();
 
         if (subSold >= goalForSubs) {
@@ -51,7 +51,7 @@ public class SandwichShop
 
         out.println("The sales goal for soup is " + goalForSoup);
 
-        out.print("How many soups were sold today?");
+        out.println("How many soups were sold today?");
         int soupSold = keyboard.nextInt();
 
         if (soupSold >= goalForSoup) {
